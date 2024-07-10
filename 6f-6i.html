@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tanga</title>
+</head>
+<body>
+<p>tanga chikka yoki pukka bilmadim kim o'ylab topgan</p>
+
+<button
+        onclick="
+    const randomNumber = Math.random()
+
+    let computer =''
+    if(randomNumber >= 0 && randomNumber <1/2){
+        computer = ('chikka')
+    }else{
+        computer = ('pukka')}
+
+    let result = ''
+
+    if(computer === 'chikka'){
+        result = 'G\'alaba qozondingiz'
+    }
+    else{
+        result = 'Yutqazdingiz'
+    }
+    alert(
+        `Siz Chikka tanladingiz. Tangada esa ${computer} tushdi.Natijada esa ${result}`
+    )
+"
+>Chikka</button>
+<button
+        onclick="
+    const randomNumber = Math.random()
+
+    let computer =''
+    if(randomNumber >= 0 && randomNumber <1/2){
+        computer = ('chikka')
+    }else{
+        computer = ('pukka')}
+
+    let result = ''
+
+    if(computer === 'pukka'){
+        result = 'G\'alaba qozondingiz'
+    }
+    else{
+        result = 'Yutqazdingiz'
+    }
+    alert(
+        `Siz pukka tanladingiz. Tangada esa ${computer} tushdi.Natijada esa ${result}`
+    )
+"
+>Pukka</button>
+</body>
+</html>
